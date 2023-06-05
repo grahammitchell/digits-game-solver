@@ -19,6 +19,7 @@ Shortest is: (- (* 10 (+ 4 3)) 1)
 
 Works pretty fast but for some reason lists the same solution multiple times:
 
+```
 % ./digits-game-solver.py 69 1 3 4 5 10 25 | wc -l
     2463
 
